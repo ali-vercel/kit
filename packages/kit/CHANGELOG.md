@@ -1,5 +1,17 @@
 # @sveltejs/kit
 
+## 3.1.1
+
+### Patch Changes
+
+- fix: restore function snapshots on reload when SSR is disabled ([#17477](https://github.com/sveltejs/kit/pull/17477))
+
+- fix: avoid adding a file watcher while loading `src/env` ([#17502](https://github.com/sveltejs/kit/pull/17502))
+
+- fix: avoid injecting a non-serializable TypeScript config callback by default ([#17512](https://github.com/sveltejs/kit/pull/17512))
+
+- fix: report actionable errors for remote modules in server-only locations ([#17567](https://github.com/sveltejs/kit/pull/17567))
+
 ## 3.1.0
 
 ### Minor Changes
